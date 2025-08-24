@@ -12,7 +12,7 @@ export const api = axios.create({
 // Calls POST /login
 export async function login(email: string, password: string) {
   const response = await api.post('/login', { email, password });
-  return response.data; // Changed from res.data to response.data
+  return response.data; // Changed from res.data to response.dataww
 }
 
 // Calls POST /signup
